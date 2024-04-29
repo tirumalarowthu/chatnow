@@ -9,6 +9,14 @@ function App() {
     <div>
       <h2>Hello world </h2>
       <h4>How are you ? </h4>
+      <form onSubmit={()=>alert("form sumbitted .")}>
+        <div> 
+          <input name="veera" type='email'/>
+        </div>
+        <div>
+          <button>Submit </button>
+        </div>
+      </form>
     </div>
 
     
