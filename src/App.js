@@ -6,19 +6,15 @@ import OneMore from './OneMore';
 
 function App() {
   return (
-    <>
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route element ={<Homepage/>} path = "/" />
         <Route path = "/check" element ={<Check/>}></Route>
         <Route path='/onemore' element={<OneMore/>}></Route>
       </Routes>
-    
-    
     </BrowserRouter>
 
     
-    </>
    
   );
 }
